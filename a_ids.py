@@ -1,6 +1,6 @@
 import pandas as pd
 
-
+# 1
 # Создает файл a_ids из датасета. НЕ УНИВЕРСАЛЬНЫЙ
 file = pd.read_excel("Import/Import.xlsx", sheet_name="Лист1")
 e_dict = {"id": [],
